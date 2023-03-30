@@ -20,7 +20,7 @@
 
 /*                                                                                            Clock - External 16 MHz */
 #define HW_SYS_CLOCK_XT2            ( 1U ) /* trigger to configure external clock */
-#define HW_SYS_CLOCK_XT1_SPEED      ( 16000000U ) /* 16 MHz system clock */
+#define HW_SYS_CLOCK_XT2_SPEED      ( 16000000U ) /* 16 MHz system clock */
 
 /* =====================================================================================================================
  *                                                                                                        User Interface
