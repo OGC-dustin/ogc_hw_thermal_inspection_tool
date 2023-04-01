@@ -42,7 +42,7 @@ Pin Mapping J1:
     [PE4] - [ U5_RX/CAN0RX ] Debug/Control Serial
     [PE5] - [ U5_TX/CAN0TX ] Debug/Control Serial
     [PB4] - [ GPIO ] Camera Data Port
-    [PA5] - [ GPIO ] IR Night Light Driver
+    [PA5] - [ GPIO ] SD Card Detect
     [PA6] - [ I2C1_SCL ] I2C1_SCL Common to Camera, IR Sensor and LIDAR
     [PA7] - [ I2C1_SDA ] I2C1_SDA Common to Camera, IR Sensor and LIDAR
 
