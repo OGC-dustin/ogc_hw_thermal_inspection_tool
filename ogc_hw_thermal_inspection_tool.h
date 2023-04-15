@@ -1,5 +1,5 @@
-#ifndef HW_THERMAL_INSPECTION_TOOL_H
-#define HW_THERMAL_INSPECTION_TOOL_H
+#ifndef OGC_HW_THERMAL_INSPECTION_TOOL_H
+#define OGC_HW_THERMAL_INSPECTION_TOOL_H
 
 /* Development project built on the TI EK-TM4C123GXL Launchpad platform */
 
@@ -92,4 +92,4 @@
 #define HW_LIDAR_ENABLE_PIN         ( GPIO_PIN_3 )
 
 
-#endif /* HW_THERMAL_INSPECTION_TOOL_H */
+#endif /* OGC_HW_THERMAL_INSPECTION_TOOL_H */
