@@ -17,21 +17,29 @@ Developer contact - dustin < at > ogc.engineering
     - 32-bit ARM Cortex-M4F runing at 80 MHz
     - 256 kB Flash
     - 32 kB SRAM
+- User interface ( UI ) daughter board
+    - Display - Adafruit 1.5" SSD1351 128 x 128 RGB OLED
+    - Controls - RGB Encoder with click
+- Sensor daughter board
+    - Color camera -  OV7670
+    - Lighting ring - 24 NeoPixel ring
+    - Thermal camera - MLX90640
+    - LIDAR distance sensor - Garmin LIDAR-Lite v3
 
 ---
 ### Resources:
 
-- 3.3 VDC (300 mA max)
-- 5.0 VDC (depends on 3.3 VDC usage, 23 mA to 323 mA)
-
-- OLED at Full Brightness   [ 42 mA ]
-- Encoder RGB               [ assume 60 mA max if we run 20 mA each ( balance light output down from here ) ]
-- Color Camera              [ 18 mA ( 24 MHz at 30 FPS YUV output, no IO loading ) ]
-- Thermal Camera            [ 23 mA ]
-- LIDAR                     [ 135 mA continuous Operation ]
-- NeoPixel Ring             [ 50 mA max * 24   will need external power regulation ( 5V ) ]
-- IR Emitters               [ TBD ]
-
+- Power Analysis
+    - Sources
+        - 3.3 VDC (300 mA max)
+        - 5.0 VDC (depends on 3.3 VDC usage, 23 mA to 323 mA)
+    - Loads
+        - OLED at Full Brightness   ( 3v3 internal ) [ 42 mA ]
+        - Encoder RGB               ( 3v3 internal ) [ assume 60 mA max if we run 20 mA each ( balance light output down from here ) ]
+        - Color Camera              ( ?? ) [ 18 mA ( 24 MHz at 30 FPS YUV output, no IO loading ) ]
+        - Thermal Camera            ( ?? ) [ 23 mA ]
+        - LIDAR                     ( ?? ) [ 135 mA continuous Operation ]
+        - NeoPixel Ring             ( 5v external needed )[ 50 mA max * 24 ]
 
 ```
 Pin Mapping J1:
