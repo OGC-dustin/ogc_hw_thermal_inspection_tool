@@ -74,6 +74,13 @@
 #define HW_UI_OLED_RST_PIN                      ( GPIO_PIN_2 )
 #define HW_UI_OLED_RST_POL                      ( 0U ) /* normal polarity ( active high ) */
 
+/*                                                                                           User Interface - SD Card */
+#define HW_UI_SD_CARD_SELECT_PORT               ( GPIO_PORTD_BASE )
+#define HW_UI_SD_CARD_SELECT_PIN                ( GPIO_PIN_1 )
+#define HW_UI_SD_CARD_SELECT_POL                ( 0U ) /* normal polarity ( active high ) */
+#define HW_UI_SD_CARD_DETECT_PORT               ( GPIO_PORTA_BASE )
+#define HW_UI_SD_CARD_DETECT_PIN                ( GPIO_PIN_5 )
+#define HW_UI_SD_CARD_DETECT_POL                ( 0U ) /* normal polarity ( active high ) */
 /* =====================================================================================================================
  *                                                                                                               Sensors
  * =====================================================================================================================
